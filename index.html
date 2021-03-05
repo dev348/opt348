@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>firebase phone number auth</title>
+        <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+        <script>
+            
+            var config = {
+                apiKey: "AIzaSyBm8g8fE6EGhonwVG8ZylDyb1JuPnhsfCI",
+  authDomain: "otpno-e7492.firebaseapp.com",
+  projectId: "otpno-e7492",
+  storageBucket: "otpno-e7492.appspot.com",
+  messagingSenderId: "42420432762",
+  appId: "1:42420432762:web:17d240e0e19e2acb7bb0c3",
+  measurementId: "G-ZYGH0F660G"
+            };
+
+            firebase.initializeApp(config);
+
+        </script>
+        <style>
+            button { display: block; }
+        </style>
+    </head>
+    <body>
+
+        phone <input>
+        
+        <button onclick="auth()">auth</button>
+        <label>human or bot</label>
+        
+        <div id="recaptcha"></div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
